@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ngdemo7/pages/3dflip.dart';
+import 'package:ngdemo7/pages/bounce_page.dart';
 import 'package:ngdemo7/pages/fade_page.dart';
+import 'package:ngdemo7/pages/hinge_page.dart';
 import 'package:ngdemo7/pages/home_page.dart';
 import 'package:ngdemo7/pages/lottie_page.dart';
 import 'package:ngdemo7/pages/slide_page.dart';
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FadePage(),
+      home: HingePage(),
     );
   }
 }
